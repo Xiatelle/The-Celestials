@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".SunPage">
+
+    <ImageView
+        android:id="@+id/leftSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-344dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/sun_left" />
+
+    <TextView
+        android:id="@+id/sunDialog"
+        android:layout_width="370dp"
+        android:layout_height="412dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="-18dp"
+        android:fontFamily="@font/alyssum"
+        android:justificationMode="inter_word"
+        android:text="@string/introSun"
+        android:textColor="@color/yellow"
+        android:textSize="23sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/sunNameSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/jelle"
+        android:text="@string/nameSun"
+        android:textColor="@color/yellow"
+        android:textSize="65sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/rocketShip"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/rocket_ship"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".MenuPage">
+
+    <ImageView
+        android:id="@+id/smallSun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/planets"
+        android:src="@drawable/sun_up" />
+
+    <ImageView
+        android:id = "@+id/smallMercury2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mercury_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id = "@+id/smallVenus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/venus_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id = "@+id/smallEarth2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/earth_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id = "@+id/smallMars2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mars_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id = "@+id/smallJupiter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/jupiter_up"
+        android:contentDescription="@string/planets" />
+
+
+    <ImageView
+        android:id = "@+id/smallSaturn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/saturn_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id = "@+id/smallUranus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/uranus_up"
+        android:contentDescription="@string/planets" />
+
+    <ImageView
+        android:id="@+id/smallNeptune2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/planets"
+        android:src="@drawable/neptune_up" />
+
+    <ImageView
+        android:id = "@+id/titleOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/text_1"
+        android:contentDescription="@string/imgbutton"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/titleTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/text_2"
+        android:contentDescription="@string/imgbutton"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id = "@+id/imgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_3"
+        android:contentDescription="@string/imgbutton"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context=".Jupiter">
+
+    <ImageView
+        android:id="@+id/jupiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-1dp"
+        android:src="@drawable/jupiter_big" />
+
+    <TextView
+        android:id="@+id/jupiterNameSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="348dp"
+        android:fontFamily="@font/jelle"
+        android:text="@string/jupiter"
+        android:textColor="@color/orange"
+        android:textSize="60sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/jupiterDialogSpace"
+        android:layout_width="361dp"
+        android:layout_height="403dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/jelle"
+        android:text="@string/jupiter_dialog"
+        android:textColor="@color/orange"
+        android:textSize="25sp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id = "@+id/rocketShip"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/rocket_ship"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

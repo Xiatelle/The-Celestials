@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheCelestials"
+        tools:targetApi="34">
+        <activity
+            android:name=".NeptuneQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Neptune"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".UranusQuiz"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Uranus"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".SaturnQuiz"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Saturn"
+            android:exported="true" />
+        <activity
+            android:name=".JupiterQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".Jupiter"
+            android:exported="true" />
+        <activity
+            android:name=".MarsQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".Mars"
+            android:exported="true" />
+        <activity
+            android:name=".EarthQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Earth"
+            android:exported="true" />
+        <activity
+            android:name=".VenusQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Venus"
+            android:exported="true" />
+        <activity
+            android:name=".MercuryQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mercury"
+            android:exported="true" />
+        <activity
+            android:name=".IntroSolarSystem"
+            android:exported="false" />
+        <activity
+            android:name=".SunPage"
+            android:exported="false" />
+        <activity
+            android:name=".SolarSystem"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroOne"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".MenuPage"
+            android:exported="false" />
+        <activity
+            android:name=".IntroThree"
+            android:exported="false" />
+    </application>
+
+</manifest>

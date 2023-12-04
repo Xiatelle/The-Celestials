@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg"
+    tools:context=".UranusQuiz">
+
+    <!--    OPTION A -->
+
+    <TextView
+        android:id="@+id/uranusQuizSpace"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/jelle"
+        android:text="@string/uranus_quiz"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id = "@+id/choiceAImage"
+        android:layout_width="wrap_content"
+        android:layout_height="85sp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/quiz_1_btn_a"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/optionOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choiceAImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="-55dp"
+        android:fontFamily="@font/jelle"
+        android:text=""
+        android:textColor="@color/dark_blue"
+        android:textSize="40sp"
+        android:visibility="invisible"/>
+
+    <!--    OPTION B-->
+    <ImageView
+        android:id="@+id/choiceBImage"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_below="@id/optionOne"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/quiz_1_btn_b"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/optionTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choiceBImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="-58dp"
+        android:fontFamily="@font/jelle"
+        android:text=""
+        android:textColor="@color/dark_blue"
+        android:textSize="40sp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/quizRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionTwo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-4dp"
+        android:src="@drawable/sun_quiz_1_correct"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/quizWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionTwo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-2dp"
+        android:src="@drawable/sun_quiz_1_wrong"
+        android:visibility="gone" />
+
+</RelativeLayout>

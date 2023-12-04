@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Celestials</string>
+    <string name="sample">Press The Button</string>
+    <string name="menu_page">Menu Page</string>
+    <string name="intro_page_1">Intro Page 1</string>
+    <string name="intro_two">Intro Two</string>
+    <string name="planets">PLANETS\n</string>
+    <string name="imgbutton">imgButton</string>
+    <string name="solarsystem">Solar System Slant\n</string>
+
+    <string name="mercury">MERCURY</string>
+    <string name="venus">VENUS</string>
+    <string name="earth">EARTH</string>
+    <string name="mars">MARS</string>
+    <string name="jupiter">JUPITER</string>
+    <string name="saturn">SATURN</string>
+    <string name="uranus">URANUS</string>
+    <string name="neptune">NEPTUNE</string>
+    <string name="sun">SUN</string>
+
+
+    <string name="introSun" translatable="false">"     The sun is like a giant ball of fire in the sky, but don't worry, it's not really on fire like a campfire. Instead, it's a huge ball of hot, glowing gases. Imagine a big, round balloon filled with super-hot air! The sun is so big that you could fit more than a million Earths inside it. It's like the biggest, brightest nightlight in the whole universe, and it helps us see and keeps us warm every day.      "</string>
+    <string name="nameSun" translatable="false">SUN</string>
+    <string name="mercury_name">MERCURY</string>
+
+    <string name="mercury_dialog">
+        is the first and smallest planet in our solar system. Making it slightly bigger than the moon.\n\nDespite being small, it is the fastest planet that goes around the sun.\n\n
+        it orbits the sun at an average speed of 107 , 000 miles per hour and it takes only 88 days to complete one revolution around the sun, but it takes 59 days when we convert it to earth days.
+    </string>
+
+    <string name="mercury_quiz">
+        What is the fastest planet that goes around the sun?
+    </string>
+
+    <string name="venus_dialog">
+        Venus is the second closest planet to The Sun. It is the hottest planet in the Solar System. \n\nThere are yellow clouds on Venus. The Pressure on Venus would Crush You. \n\nVenus is the only planet in our Solar System that rotates Clockwise. A day on Venus lasts 243 Earth Days.
+    </string>
+
+    <string name="venus_quiz">
+        __ is the hottest planet in our solar system?
+    </string>
+
+    <string name="earth_dialog">
+        Earth is the third planet from the sun in our solar system. Its name comes from the old English and Germanic words meaning ‘the ground’. \n\n
+        Earth is the only planet in our solar system known to support life. This is because it has two very important things that living creatures need to survive –– lots of oxygen and lots of water! \n\n
+        Its distance from the sun means it’s not too hot and not too cold for creatures to live on, too.
+    </string>
+
+    <string name="earth_quiz">
+        The name of Earth comes from an old English and Germanic word meaning__?
+    </string>
+
+    <string name="mars_dialog">
+        Mars is called the Red Planet because of all the iron in the soil. This iron rusts and as a result makes the surface and atmosphere look red. \n\n
+        Mars has two moons, and their names are Phobos and Deimos. It may look warm but it’s very cold, the average temperature is 62 degree celsius.
+    </string>
+
+    <string name="mars_quiz">
+        Mars is called The Red Planet because __?
+    </string>
+
+    <string name="jupiter_dialog">
+        Jupiter is the fifth planet from the Sun. Jupiter and the planets beyond it—Saturn, Uranus, and Neptune—are called gas giants. \n\nIt is the biggest planet in our Solar System and made up mostly of gasses. They do not have a solid surface. Jupiter has 80 moons.
+    </string>
+
+    <string name="jupiter_quiz">
+        What is the biggest planet in our solar system?
+    </string>
+
+    <string name="saturn_dialog">
+        Saturn is the second largest planet in the solar system after Jupiter. It is only slightly smaller than Jupiter in diameter, but is much smaller in mass. It is made mostly of hydrogen and helium. \n\n
+        Saturn has a thick atmosphere. Saturn has a lovely set of seven main rings with spaces between them.
+    </string>
+
+    <string name="saturn_quiz">
+        It is the second biggest planet in our Solar System.
+    </string>
+
+    <string name="uranus_dialog">
+        Uranus is the seventh planet from the Sun and is considered an Ice Giant because it is largely made up of water, ammonia, and methane in solid form. \n\nUranus is the only planet that spins on its side.
+    </string>
+
+    <string name="uranus_quiz">
+        Uranus is the __ planet from the Sun.
+    </string>
+
+    <string name="neptune_dialog">
+        Dark, cold and whipped by supersonic winds, the Blue Giant-Neptune is the eighth and most distant major planet orbiting our Sun. \n\nMore than 30 times as far from the Sun as Earth, Neptune is not visible to the naked eye.
+    </string>
+
+    <string name="neptune_quiz">
+        Neptune is also known as the?
+    </string>
+
+
+
+</resources>

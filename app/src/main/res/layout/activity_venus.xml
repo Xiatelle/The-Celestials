@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".Venus">
+
+    <ImageView
+        android:id = "@+id/venus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/venus_big"/>
+
+    <TextView
+        android:id="@+id/venusNameSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="391dp"
+        android:fontFamily="@font/jelle"
+        android:text="@string/venus"
+        android:textColor="@color/yellow"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/venusDialogSpace"
+        android:layout_width="335dp"
+        android:layout_height="345dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/jelle"
+        android:text=""
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/rocketShip"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/rocket_ship"
+        android:visibility="gone" />
+
+</RelativeLayout>

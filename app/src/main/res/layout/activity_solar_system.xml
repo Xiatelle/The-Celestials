@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".SolarSystem">
+
+    <ImageView
+        android:id = "@+id/solar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/titlefive"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/titlesix"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id = "@+id/slantSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/sun_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantMercury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mercury_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantVenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/venus_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantEarth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/earth_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantMars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mars_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantJupiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/jupiter_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantSaturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/saturn_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantUranus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/uranus_slant"
+        android:contentDescription="@string/solarsystem" />
+
+    <ImageView
+        android:id = "@+id/slantNeptune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/neptune_slant"
+        android:contentDescription="@string/solarsystem" />
+
+<!--    NAME PROVIDED FOR EACH PLANET-->
+
+    <ImageView
+        android:id = "@+id/nameMercury"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mercury_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameVenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/venus_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameEarth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/earth_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameMars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/mars_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameJupiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/jupiter_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameSaturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/saturn_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameUranus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/uranus_name_two"
+        android:layout_marginBottom="39dp"
+        android:layout_marginStart="10dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id = "@+id/nameNeptune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/neptune_name_two"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/nameSun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/sun_name_two"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id = "@+id/rocketShip"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="201dp"
+        android:background="@drawable/rocket_ship"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
